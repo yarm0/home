@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'Speda';
+  src: url('Speda.woff' ) format('woff2');
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Speda';
+    background:rgb(7,55,64);
+	padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+  height: 60px;
+  background: #EBFFFF;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.5);
+}
+header.willGrow {
+  color: red;
+  height: 100vh;
+}
+header .title {
+  float: left;
+  margin-left: 25px;
+  margin-top: 27px;
+  line-height: 0.6;
+  font-size: 1.5em;
+  font-family: 'Speda';
+}
+
+a{
+    display: inline-flex;
+	flex-wrap: wrap;
+    background: #2A5D6C; 
+    margin: 3px 2px;
+    text-decoration: none;
+    padding: 5px 9px;
+    font-size: 10px;
+	border-radius: 10px;
+}
+hr
+{
+  margin: 15px;
+  border: 1px dashed #C0C0C0;
+}
+p{
+    font-family: 'Speda';
+	font-size: 18px;
+    color:#F3F3F3;
+	text-align: right;
+	margin-right: 10px;
+	margin-bottom: 43px;
+}
+a{
+	font-family: 'Speda' ;font-size: 22px;
+    color:#ff0000;
+	text-decoration: none;
+}
+.video-card
+{
+  clear: both; text-align: center;
+}
+.video-card-top {
+    border-radius: 10px;
+    border-top: 10px solid #f20e0e;
+    box-shadow: 16px 13px 42px -17px rgba(0,0,0,0.69);
+    height: 300px;
+    width: 350px;
+	font-family: 'Speda'
+}
+
+
+/*Button - 6*/
+.six{
+   background:rgb(215,19,53);
+    box-shadow: 1px 2px 8px #427388;
+}
+.six:hover{
+    background:none;
+    color:#EEEEEE;
+	 	border: 1px solid #EEEEEE;
+}
+.six:active{
+	transform: scale(0.9);
+}
+
+img{
+	float: right;
+	width: 50px;
+	padding-top: 5px;
+	padding-right: 20px;
+}
