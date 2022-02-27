@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Speda';
+  src: url('Speda.woff' ) format('woff2');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background:rgb(7,55,64);
+  font-family: 'Speda';
+}
+
+header {
+  height: 60px;
+  background: #EBFFFF;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.5);
+}
+header.willGrow {
+  color: red;
+  height: 100vh;
+}
+header .title {
+  float: left;
+  margin-left: 25px;
+  margin-top: 27px;
+  line-height: 0.6;
+  font-size: 1.5em;
+  font-family: 'Speda';
+}
+
+img{
+	float: right;
+	width: 50px;
+	padding-top: auto;
+	padding-right: auto;
+}
+
+.card{
+  margin-top: 15px;
+  width: 340px;
+  background: #f1f1f1;
+  overflow: hidden;
+  font-family: "montserrat",sans-serif;
+  box-shadow: 0 0 20px #00000070;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.top-section{
+  position: relative;
+}
+.top-section > img{
+  width: 100%;
+  height: 100%;
+}
+
+.name{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 40px;
+  font-weight: 400;
+  color: black;
+}
+.name span{
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.info-section{
+  padding: 40px;
+  padding-top: 0;
+  color: #BE0808;
+  text-align: right;
+  font-family: 'Speda';
+}
+h2{
+  position: relative;
+  font-size: 16px;
+   text-align: right;
+}
+.border{
+  width: 45px;
+  height: 3px;
+  background: #778beb;
+  position: absolute;
+  left: 83%;
+  bottom: -6px;
+
+}
+p{
+
+  font-size: 14px;
+  line-height: 22px;
+  font-family: 'Speda';
+   color: #333;
+}
+
+.s-m{
+  text-align: center;
+  margin-top: 20px;
+}
+.s-m a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #333;
+  padding: 0 9px;
+  transition: .4s;
+}
+
+.s-m a:hover{
+  color: #778beb;
+}
+footer{
+	text-align: center;
+``` font-family: 'Speda';
+	font-size: 14px;
+	color: #EEEE;
+	margin-top: 580px;
+	
+}
