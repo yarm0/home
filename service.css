@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Speda';
+  src: url('Speda.woff' ) format('woff2');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background:rgb(7,55,64);
+  font-family: 'Speda';
+}
+
+header {
+  height: 60px;
+  background: #EBFFFF;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.5);
+}
+header.willGrow {
+  color: red;
+  height: 100vh;
+}
+header .title {
+  float: left;
+  margin-left: 25px;
+  margin-top: 27px;
+  line-height: 0.6;
+  font-size: 1.5em;
+  font-family: 'Speda';
+}
+
+img{
+	float: right;
+	width: 50px;
+	padding-top: auto;
+	padding-right: auto;
+}
+.six{
+   background:rgb(215,19,53);
+    box-shadow: 1px 2px 8px #427388;
+}
+.six:hover{
+    background:none;
+    color:#EEEEEE;
+	 	border: 1px solid #EEEEEE;
+}
+.six:active{
+	transform: scale(0.9);
+}
+a{
+	text-align: center;
+    display: inline-flex;
+    background: #5C5757; 
+    margin: 12px ;
+    color: white;
+    text-decoration: none;
+    padding: .7em 2.5em;
+    font-size: 13px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+
+
+
+footer{
+	text-align: center;
+``` font-family: 'Speda';
+	font-size: 14px;
+	color: #EEEE;
+	margin-top: 530px;
+	
+}
