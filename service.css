@@ -38,40 +38,53 @@ img{
 	padding-top: auto;
 	padding-right: auto;
 }
-.six{
-   background:rgb(215,19,53);
-    box-shadow: 1px 2px 8px #427388;
+
+.button-container {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.six:hover{
-    background:none;
-    color:#EEEEEE;
-	 	border: 1px solid #EEEEEE;
+
+.btn {
+  display: block;
+  height: 65px;
+  width: 220px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+
 }
-.six:active{
-	transform: scale(0.9);
+.btn:after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  background: #3bade3;
+  background: linear-gradient(45deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
+  height: 55px;
+  width: 372px;
+  z-index: -1;
+  transform: translateX(-280px);
+  transition: transform 400ms ease-in;
 }
-a{
+.btn:hover:after {
+  transform: translateX(-200px);
+}
+.btn span {
+  position: relative;
+  top: 25px;
+}
+
+
+.footer{
 	text-align: center;
-    display: inline-flex;
-    background: #5C5757; 
-    margin: 12px ;
-    color: white;
-    text-decoration: none;
-    padding: .7em 2.5em;
-    font-size: 13px;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-}
-
-
-
-
-footer{
-	text-align: center;
-``` font-family: 'Speda';
+    font-family: 'Speda';
 	font-size: 14px;
 	color: #EEEE;
-	margin-top: 530px;
+	margin-top: 780px;
 	
 }
