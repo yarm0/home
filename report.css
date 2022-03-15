@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Speda';
+  src: url('Speda.woff' ) format('woff2');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background:rgb(7,55,64);
+  font-family: 'Speda';
+}
+
+header {
+  height: 60px;
+  background: #EBFFFF;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.5);
+}
+header.willGrow {
+  color: red;
+  height: 100vh;
+}
+header .title {
+  float: left;
+  margin-left: 25px;
+  margin-top: 27px;
+  line-height: 0.6;
+  font-size: 1.5em;
+  font-family: 'Speda';
+}
+
+img{
+	float: right;
+	width: 50px;
+	padding-top: auto;
+	padding-right: auto;
+}
+.butt {
+   background: #3DF670;
+   background-image: -webkit-linear-gradient(top, #3DF670, #0B5724);
+   background-image: -moz-linear-gradient(top, #3DF670, #0B5724);
+   background-image: -ms-linear-gradient(top, #3DF670, #0B5724);
+   background-image: -o-linear-gradient(top, #3DF670, #0B5724);
+   background-image: -webkit-gradient(to bottom, #3DF670, #0B5724);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+  font-family: 'Speda';
+   font-size: 16px;
+   font-weight: 100;
+   padding: 10px;
+   -webkit-box-shadow: 0 4px 0 2px #000000;
+   -moz-box-shadow: 0 4px 0 2px #000000;
+   box-shadow: 0 4px 0 2px #000000;
+   text-shadow: 0 1px 51px #000000;
+   border: solid #0D772A 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 15%;
+}
+p{
+  font-size: 14px;
+  font-family: 'Speda';
+  color: #eee;
+  line-height: 2.5em;
+  margin: 10px;
+}
+hr
+{
+  margin: 15px;
+  border: 1px dashed #C0C0C0;
+}
+footer{
+	text-align: center;
+``` font-family: 'Speda';
+	font-size: 14px;
+	color: #EEEE;
+	margin-top: 85%;
+	
+}
