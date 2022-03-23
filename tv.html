@@ -1,38 +1,45 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset=utf-8 />
-<title>YARMATI TV</title>
-  
+<html>
+  <head>
+  <meta charset=utf-8 />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
 
-  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
-  <script src="https://unpkg.com/video.js/dist/video.js"></script>
-  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
-   
-</head>
-<style>
-.my_video_1 {
-    Margin: auto;
+  <title>Your title</title>
+    
+  
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+    <script src="https://unpkg.com/video.js/dist/video.js"></script>
+    <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+     
+  </head>
+  <style>
+      p{
+        text-align: center;
+      }
+                        
+          
 
-}
-
-</style>
-<body>
-  <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
-  data-setup='{}'>
-    <source src="http://190.2.148.141:8080/bar7671/tracks-v1a1/mono.m3u8" type="application/x-mpegURL">
-  </video>
+  </style>
+  <body>
+    <p>astera</p>
   
-<script>
-var player = videojs('my_video_1');
-player.play();
-</script>
+     
+    <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
+    data-setup='{}'>
+      <source src="http://190.2.148.141:8080/bar7606/tracks-v1a1/mono.m3u8" 
+      type="application/x-mpegURL">
+      
+    </video>
+    <br><br>
+    <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
+    data-setup='{}'>
+      <source src="http://190.2.148.141:8080/bar7671/tracks-v1a1/mono.m3u8" type="application/x-mpegURL">
+    </video>
   
-</body>
-</html>
-<!-- partial -->
-  
-</body>
-</html>
+  <script>
+  var player = videojs('my_video_1');
+  player.play();
+  </script>
+    
+  </body>
+  </html>
